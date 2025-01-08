@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ストリートファイター6 キャラクター紹介</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+	.character {
+	            margin: 20px;
+	            border: 1px solid #ccc;
+	            padding: 20px;
+	            display: flex;
+	            align-items: center;
+	        }
+	        .character img {
+	            width: 200px;
+	            height: 250px;
+	            margin-right: 50px;
+	        }
+	        .character-description {
+	            max-width: 600px;
+	        }
+	</style>
+</head>
+
+<body class=".class">
+	<h1>ストリートファイター6 キャラクター紹介</h1>
+
+	<div class="character">
+		<img src="img/ryu.png" alt="リュウ">
+		<div class="character-description">
+			<h2>リュウ (ryu)</h2>
+			<p id="kya">リュウは、ストリートファイターシリーズの象徴的なキャラクターで、武道家としての道を極めるために旅を続けています。
+                 彼の代表的な技は「波動拳」と「昇龍拳」です。リュウは正義感が強く、自己鍛錬を欠かしません。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoryu" src="img/603(ryu).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	<script>
+	const videoryu = document.getElementById('hoverVideoryu');
+	const videoContainerryu = videoryu.closest('.video-container');
+
+	videoContainerryu.addEventListener('mouseenter', () => {
+		videoryu.play();
+	});
+	videoContainerryu.addEventListener('mouseleave', () => {
+		videoryu.pause();
+		videoryu.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+</div>
+
+	<div class="character">
+		<img src="img/ken.png" alt="ケン">
+		<div class="character-description">
+			<h2>ケン (ken)</h2>
+			<p id="kya">ケンは、元・全米格闘王、元・マスターズ財団副理事長。ある事件により組織犯罪の首謀者という嫌疑をかけられたため、
+                 家族の元を離れ地位を捨てて潜伏している。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoKen" src="img/603 (ken).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	<script>
+	const videoKen = document.getElementById('hoverVideoKen');
+	const videoContainerKen = videoKen.closest('.video-container');
+
+	videoContainerKen.addEventListener('mouseenter', () => {
+		videoKen.play();
+	});
+	videoContainerKen.addEventListener('mouseleave', () => {
+		videoKen.pause();
+		videoKen.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+
+
+	<div class="character">
+		<img src="img/chunli.png" alt="春麗">
+		<div class="character-description">
+			<h2>春麗 (Chun-Li)</h2>
+			<p id="kya">春麗は、ストリートファイターシリーズで最も有名な女性キャラクターです。
+                彼女はICPO（国際刑事警察機構）のエージェントであり、 犯罪と戦うためにその卓越した武道スキルを駆使します。彼女の代表的な技は「スピニングバードキック」と「百裂脚」です。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoChunLi" src="img/604(chun-li).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script>
+	const videoChunLi = document.getElementById('hoverVideoChunLi');
+	const videoContainerChunLi = videoChunLi.closest('.video-container');
+
+	videoContainerChunLi.addEventListener('mouseenter', () => {
+		videoChunLi.play();
+	});
+
+	videoContainerChunLi.addEventListener('mouseleave', () => {
+		videoChunLi.pause();
+		videoChunLi.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+
+	<div class="character">
+		<img src="img/guile.png" alt="ガイル">
+		<div class="character-description">
+			<h2>ガイル (guile)</h2>
+			<p id="kya">祖国の平和のために闘う米空軍軍人。 シャドルーを壊滅させ、
+                親友・ナッシュの復讐を果たした。妻子との平穏な日常を喜びながらもその眼は新たな戦場を見据えている。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoguile" src="img/603 (guile).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	const videoguile = document.getElementById('hoverVideoguile');
+	const videoContainerguile = videoguile.closest('.video-container');
+
+	videoContainerguile.addEventListener('mouseenter', () => {
+		videoguile.play();
+	});
+
+	videoContainerguile.addEventListener('mouseleave', () => {
+		videoguile.pause();
+		videoguile.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+
+	<div class="character">
+		<img src="img/dhalsim.png" alt="ダルシム">
+		<div class="character-description">
+			<h2>ダルシム (dhalsim)</h2>
+			<p id="kya">インドの修行僧でヨーガの達人。人々の導き手となり、無数の悩みや苦しみの声に応えている。 
+                無益な争いは好まないが、悪事を許せない性格ゆえに、闘いの場では厳しさも見せる。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideodhal" src="img/603 (dhal).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	const videodhal = document.getElementById('hoverVideodhal');
+	const videoContainerdhal = videodhal.closest('.video-container');
+
+	videoContainerdhal.addEventListener('mouseenter', () => {
+		videodhal.play();
+	});
+
+	videoContainerdhal.addEventListener('mouseleave', () => {
+		videodhal.pause();
+		videodhal.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+
+	</div>
+	</div>
+
+	<div class="character">
+		<img src="img/ehonda.png" alt="エドモンド・本田">
+		<div class="character-description">
+			<h2>エドモンド・本田 (ehonda)</h2>
+			<p id="kya">相撲を「わあるどわいど」にするため闘う力士。 実力は横綱級だが、
+                本場所そっちのけで世界を飛び回る破天荒さゆえ、番付は張出大関である。 料理は玄人裸足の腕前で、ちゃんこ鍋が絶品。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideohonda" src="img/603 (honda).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	const videohonda = document.getElementById('hoverVideohonda');
+	const videoContainerhonda = videohonda.closest('.video-container');
+
+	videoContainerhonda.addEventListener('mouseenter', () => {
+		videohonda.play();
+	});
+
+	videoContainerhonda.addEventListener('mouseleave', () => {
+		videohonda.pause();
+		videohonda.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+	</div>
+	</div>
+
+	<div class="character">
+		<img src="img/blanka.png" alt="ブランカ">
+		<div class="character-description">
+			<h2>ブランカ (blanka)</h2>
+			<p id="kya">心やさしい大自然の戦士。 ジャングルを知り尽くした自信と、いつか人気者になる夢を胸に、
+                アドベンチャーツアーのガイドをして母との暮らしを支えている。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoblanka" src="img/603 (blanka).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	<script>
+	const videoblanka = document.getElementById('hoverVideoblanka');
+	const videoContainerblanka = videoblanka.closest('.video-container');
+
+	videoContainerblanka.addEventListener('mouseenter', () => {
+		videoblanka.play();
+	});
+
+	videoContainerblanka.addEventListener('mouseleave', () => {
+		videoblanka.pause();
+		videoblanka.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+	</div>
+	</div>
+
+	<div class="character">
+		<img src="img/zangief.png" alt="ザンギエフ">
+		<div class="character-description">
+			<h2>ザンギエフ (zangief)</h2>
+			<p id="kya">「赤きサイクロン」の異名を持つ巨漢のプロレスラー。
+                筋肉こそ至高という独自の理論を提唱し、 肉体進化と後進の指導に励んでいる。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideozangi" src="img/603 (zangi).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobzangi = document.getElementById('hoverVideozangi');
+		const videoContainerzangi = videobzangi.closest('.video-container');
+
+		videoContainerzangi.addEventListener('mouseenter', () => {
+			videobzangi.play();
+		});
+
+		videoContainerzangi.addEventListener('mouseleave', () => {
+			videobzangi.pause();
+			videobzangi.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+	</div>
+
+	<div class="character">
+		<img src="img/luke.png" alt="ルーク">
+		<div class="character-description">
+			<h2>ルーク (luke)</h2>
+			<p id="kya">今作の主人公。民間警備会社のコントラクター。米軍特殊部隊上がりで、初心者に総合格闘技を指導している。
+                 余暇に楽しむのはスナック菓子とゲーム、格闘。 勝負事となると勝ちは決して譲らない。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoluke" src="img/603 (luke).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobluke = document.getElementById('hoverVideoluke');
+		const videoContainerluke = videobluke.closest('.video-container');
+
+		videoContainerluke.addEventListener('mouseenter', () => {
+			videobluke.play();
+		});
+
+		videoContainerluke.addEventListener('mouseleave', () => {
+			videobluke.pause();
+			videobluke.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="character">
+		<img src="img/jamie.png" alt="ジェイミー">
+		<div class="character-description">
+
+			<h2>ジェイミー (jamie)</h2>
+			<p id="kya">自称・中華街のトラブルバスター。 憧れる「双龍」ユン・ヤン兄弟にならい、道理や仲間を尊ぶ義と、拳法の武によって街を守っている。
+                特技はダンス全般。
+				<br> スト６ではお酒（薬湯）を飲んで強くなる。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideojamie" src="img/603 (jamie).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobjamie = document.getElementById('hoverVideojamie');
+		const videoContainerjamie = videobjamie.closest('.video-container');
+
+		videoContainerjamie.addEventListener('mouseenter', () => {
+			videobjamie.play();
+		});
+
+		videoContainerjamie.addEventListener('mouseleave', () => {
+			videobjamie.pause();
+			videobjamie.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/juri.png" alt="ジュリ">
+		<div class="character-description">
+			<h2>ジュリ (juri)</h2>
+			<p id="kya">このゲーム屈指の人気を誇るキャラ、世界１位を獲得しているキャラでもある。
+				<br>人の争いや苦悩を好み、闘う相手を破壊し尽くすことを至高の喜びとする享楽家。 
+                左目を奪ったベガへの恨みという動機を失った現在、鬱屈した日々を過ごしている。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideojuri" src="img/603 (juri).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobjuri = document.getElementById('hoverVideojuri');
+		const videoContainerjuri = videobjuri.closest('.video-container');
+
+		videoContainerjuri.addEventListener('mouseenter', () => {
+			videobjuri.play();
+		});
+
+		videoContainerjuri.addEventListener('mouseleave', () => {
+			videobjuri.pause();
+			videobjuri.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/cammy.png" alt="キャミー">
+		<div class="character-description">
+			<h2>キャミー (cammy)</h2>
+			<p id="kya">イギリス特殊部隊デルタレッド隊員。 自身と深い因縁のあるシャドルーに対する作戦で戦功を挙げた。
+                非常に優秀だが、気まぐれな一面を見せることも。 現在は本部勤めで鋭気を養う。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideocammy" src="img/604(cammy).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobcammy = document.getElementById('hoverVideocammy');
+		const videoContainercyammy = videobcammy.closest('.video-container');
+
+		videoContainercyammy.addEventListener('mouseenter', () => {
+			videobcammy.play();
+		});
+
+		videoContainercyammy.addEventListener('mouseleave', () => {
+			videobcammy.pause();
+			videobcammy.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="character">
+		<img src="img/marisa.png" alt="マリーザ">
+		<div class="character-description">
+			<h2>マリーザ (margin)</h2>
+			<p id="kya">古代ギリシャからの歴史を継ぐ闘士にして新進のジュエリーデザイナー。
+                幼い頃に全盛期のコロッセオを幻視した体験がある。 豪放磊落な笑顔と、繊細な審美眼をあわせ持つ。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideomaarisa" src="img/603 (maarisa).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobmaarisa = document.getElementById('hoverVideomaarisa');
+		const videoContainermaarisa = videobmaarisa.closest('.video-container');
+
+		videoContainermaarisa.addEventListener('mouseenter', () => {
+			videobmaarisa.play();
+		});
+
+		videoContainermaarisa.addEventListener('mouseleave', () => {
+			videobmaarisa.pause();
+			videobmaarisa.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/jp.png" alt="jp">
+		<div class="character-description">
+			<h2>jp (jp)</h2>
+			<p id="kya">本名は不明で、ナイシャールでは、ヨハン・ペドロヴィッチ(Johann Pettrovich)とこれを含むほとんどが偽名でイニシャルがｊｐである。 
+                国際NGOを組織し多数の開発投資プロジェクトを成功させてきた事業家。
+				小国ナイシャールに現在の繁栄をもたらした。愛猫の名はシベール。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideojp" src="img/603 (jp).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobjp = document.getElementById('hoverVideojp');
+		const videoContainerjp = videobjp.closest('.video-container');
+
+		videoContainerjp.addEventListener('mouseenter', () => {
+			videobjp.play();
+		});
+
+		videoContainerjp.addEventListener('mouseleave', () => {
+			videobjp.pause();
+			videobjp.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/deejay.png" alt="ディー ジェイ">
+		<div class="character-description">
+			<h2>ディー ジェイ (dee jay)</h2>
+			<p id="kya">ダンスミュージックの世界的大スター。 いつも陽気でノリが軽い。
+                音楽と格闘への熱い愛をたぎらせ、刺激的な新曲や、観客を沸かせるパフォーマンスを構想している。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideodj" src="img/607(dj).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobdj = document.getElementById('hoverVideodj');
+		const videoContainerdj = videobdj.closest('.video-container');
+
+		videoContainerdj.addEventListener('mouseenter', () => {
+			videobdj.play();
+		});
+
+		videoContainerdj.addEventListener('mouseleave', () => {
+			videobdj.pause();
+			videobdj.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/lily.png" alt="リリー">
+		<div class="character-description">
+			<h2>リリー (lily)</h2>
+			<p id="kya">サンダーフット族の古い血を受け継ぐ娘。 自然界に宿る精霊と語らう力を持ち、精霊の導きによって世界を巡る旅に出る。
+                天真爛漫な姿からは想像もつかない巨大な力を秘める。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideolily" src="img/604(lily).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videoblily = document.getElementById('hoverVideolily');
+		const videoContainerlily = videoblily.closest('.video-container');
+
+		videoContainerlily.addEventListener('mouseenter', () => {
+			videoblily.play();
+		});
+
+		videoContainerlily.addEventListener('mouseleave', () => {
+			videoblily.pause();
+			videoblily.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/manon.png" alt="マノン">
+		<div class="character-description">
+			<h2>マノン (manon)</h2>
+			<p id="kya">世界大会優勝経験を持つ柔道家にして、スーパーモデル。
+                常に高い理想を抱き、自身を磨き続ける美の探求者。 世界最強のモデルとなるべくストリートファイトのステージに上がる。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideomanon" src="img/603 (manon).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobmanon = document.getElementById('hoverVideomanon');
+		const videoContainermanon = videobmanon.closest('.video-container');
+
+		videoContainermanon.addEventListener('mouseenter', () => {
+			videobmanon.play();
+		});
+
+		videoContainermanon.addEventListener('mouseleave', () => {
+			videobmanon.pause();
+			videobmanon.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/kimberly.png" alt="キンバリー">
+		<div class="character-description">
+			<h2>キンバリー (kimberly)</h2>
+			<p id="kya">武神流第39代目伝承者・ガイの押し掛け弟子。 ごく普通の家庭に生まれ、学生時代は超優等生。
+                 飛び級で大学を卒業後、故あってニンジャを志した。80年代のポップカルチャーが大好き。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideokimberly" src="img/605(kimberly).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobkimberly = document.getElementById('hoverVideokimberly');
+		const videoContainerkimberly = videobkimberly.closest('.video-container');
+
+		videoContainerkimberly.addEventListener('mouseenter', () => {
+			videobkimberly.play();
+		});
+
+		videoContainerkimberly.addEventListener('mouseleave', () => {
+			videobkimberly.pause();
+			videobkimberly.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/rashid.png" alt="ラシード">
+		<div class="character-description">
+			<h2>ラシード (rashid)</h2>
+			<p id="kya">パルクールの身ごなしで空駆ける、砂漠の荒鷲。風を味方に、高い機動力で相手を翻弄。
+                 古い王家の血をひく高貴な生まれで、言動は軽いけれど根は誠実。趣味は動画配信。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideorashid" src="img/603 (rashid).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobrashid = document.getElementById('hoverVideorashid');
+		const videoContainerrashid = videobrashid.closest('.video-container');
+
+		videoContainerrashid.addEventListener('mouseenter', () => {
+			videobrashid.play();
+		});
+
+		videoContainerrashid.addEventListener('mouseleave', () => {
+			videobrashid.pause();
+			videobrashid.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/ed.png" alt="エド">
+		<div class="character-description">
+			<h2>エド (ed)</h2>
+			<p id="kya">サイコパワーを操る青年。 シャドルーの実験により、少年から急激に成長。 
+                他の実験体を解放しようと旅をしている。 気の短さと口の悪さはバイソン仕込み。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoed" src="img/603 (ed).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobed = document.getElementById('hoverVideoed');
+		const videoContainered = videobed.closest('.video-container');
+
+		videoContainered.addEventListener('mouseenter', () => {
+			videobed.play();
+		});
+
+		videoContainered.addEventListener('mouseleave', () => {
+			videobed.pause();
+			videobed.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/aki.png" alt="アキ">
+		<div class="character-description">
+			<h2>アキ (aki)</h2>
+			<p id="kya">元シャドルー幹部、F.A.N.Gに師事する毒遣い。
+                 毒に魅せられ、その力をふるうことに無上の 歓びを覚える。 F.A.N.Gを先生と呼び偏愛している。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoaki" src="img/603 (aki).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobaki = document.getElementById('hoverVideoaki');
+		const videoContaineraki = videobaki.closest('.video-container');
+
+		videoContaineraki.addEventListener('mouseenter', () => {
+			videobaki.play();
+		});
+
+		videoContaineraki.addEventListener('mouseleave', () => {
+			videobaki.pause();
+			videobaki.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/gouki_akuma.png" alt="豪鬼">
+		<div class="character-description">
+			<h2>豪鬼 (gouki)</h2>
+			<p id="kya">己が拳を極めんため、殺意の波動を身に宿し闘い続ける修羅。</p>
+			<div class="video-container">
+				<video id="hoverVideogouki" src="img/605(gouki).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobgouki = document.getElementById('hoverVideogouki');
+		const videoContainergouki = videobgouki.closest('.video-container');
+
+		videoContainergouki.addEventListener('mouseenter', () => {
+			videobgouki.play();
+		});
+
+		videoContainergouki.addEventListener('mouseleave', () => {
+			videobgouki.pause();
+			videobgouki.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/vega_mbison.png" alt="ベガ">
+		<div class="character-description">
+			<h2>ベガ (vega)</h2>
+			<p id="kya">死んだはずのシャドルー総帥、ベガらしき男。 記憶の一部を失っているが、その性は暴虐にして不遜。
+                サイコパワーに導かれ、シャドルー関連施設に現れる。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideovega" src="img/603 (vega).mp4" muted></video>
+			</div>
+		</div>
+		<script>
+		const videobvega = document.getElementById('hoverVideovega');
+		const videoContainervega = videobvega.closest('.video-container');
+
+		videoContainervega.addEventListener('mouseenter', () => {
+            videobvega.play();
+		});
+
+		videoContainervega.addEventListener('mouseleave', () => {
+			videobvega.pause();
+			videobvega.currentTime = 0; // 再生位置を最初に戻す
+		});
+
+		</script>
+	</div>
+
+	<div class="character">
+		<img src="img/terry.png" alt="テリー">
+		<div class="character-description">
+			<h2 class="animate-on-scroll">テリー (terry)</h2>
+			<p id="kya">腕を磨くために世界をさすらい、闘い続ける熱いファイター。飢えた狼の異名をとる。 
+				パオパオカフェの支店がオープンすると聞きつけて、メトロシティに立ち寄った。
+			</p>
+			<div class="video-container">
+				<video id="hoverVideoterry" src="img/605(terry).mp4" muted></video>
+			</div>
+		</div>
+	</div>
+	<script>
+	const videoterry = document.getElementById('hoverVideoterry');
+	const videoContainerterry = videoterry.closest('.video-container');
+
+	videoContainerterry.addEventListener('mouseenter', () => {
+		videoterry.play();
+	});
+	videoContainerterry.addEventListener('mouseleave', () => {
+		videoterry.pause();
+		videoterry.currentTime = 0; // 再生位置を最初に戻す
+	});
+
+	</script>
+	</div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.lettering.js"></script>
+    <script src="js/jquery.textillate.js"></script>
+    <script src="js/jquery.scrolla.js"></script>
+    <script src="js/StreetFighter 6.js"></script>
+	
+	</body>
+
+</html>
